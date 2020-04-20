@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import { Button } from 'element-ui'
-import {Form,FormItem,Input,Select,Option,Carousel,CarouselItem} from 'element-ui'
+import {Form,FormItem,Input,Select,Option,Carousel,CarouselItem,Drawer,Divider,ColorPicker,Slider} from 'element-ui'
 import {Message,MessageBox,Container,Header,Main,Aside,Tooltip,Pagination,Menu,Submenu,MenuItemGroup,MenuItem,Breadcrumb,BreadcrumbItem,Card,Row,Dialog,Col,TabPane,Table,TableColumn,Switch} from 'element-ui'
 
 Vue.use(Carousel)
+Vue.use(Slider)
+Vue.use(ColorPicker)
+Vue.use(Divider)
+Vue.use(Drawer)
 Vue.use(CarouselItem)
 Vue.use(Pagination)
 Vue.use(Tooltip)

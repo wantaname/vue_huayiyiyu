@@ -9,13 +9,13 @@
     <el-card class="box-card">
       <el-row :gutter="2">
         <el-col :span="2">
-           <el-select  v-model="queryBooks.select" placeholder="請選擇">
+           <el-select  v-model="queryBooks.select" placeholder="請选择">
               <el-option value="code" label="編碼" ></el-option>
               <el-option value="name" label="譯語" ></el-option>
             </el-select>
         </el-col>
         <el-col :span="10">
-           <el-input placeholder="請輸入查詢內容" v-model="queryBooks.query">
+           <el-input placeholder="请输入查询内容" v-model="queryBooks.query">
             <el-button slot="append" icon="el-icon-search" @click="searchBooks"></el-button>
           </el-input>
         </el-col>

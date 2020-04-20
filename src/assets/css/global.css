@@ -4,7 +4,10 @@ html, body, #app{
     padding: 0;
 }
 
-
+.el-drawer{
+  overflow: auto;
+ 
+}
 .el-breadcrumb{
     margin-bottom: 15px;
     font-size: 15px;

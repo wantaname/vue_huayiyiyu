@@ -10,6 +10,7 @@ import word_like from '../components/analysis/word_like.vue'
 import clothoes_category from '../components/result/clothes_category.vue'
 import pron_map from '../components/result/pron_map.vue'
 import home from '../components/home.vue'
+import todo from '../components/result/todo'
 
 import word_cloud from '../components/analysis/wordcloud'
 
@@ -36,6 +37,7 @@ const routes = [
       {path:'/degree',component:word_like},
       {path:'/clothes',component:clothoes_category},
       {path:"/map",component:pron_map},
+      {path:"/todo",component:todo},
       // 测试用
       {path:'/cloud',component:word_cloud}
     ]
