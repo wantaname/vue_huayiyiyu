@@ -1,29 +1,22 @@
-# huayiyiyu_2
+## <华夷译语>
 
-## Project setup
-```
-npm install
-```
+网址： [http://www.huayiyiyu.cn/#/introduction](http://www.huayiyiyu.cn/#/introduction)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 网站截图
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![web.png](https://github.com/wantaname/vue_huayiyiyu/blob/master/screenshot/web.jpg)
 
-### Run your tests
-```
-npm run test
-```
+### 
 
-### Lints and fixes files
-```
-npm run lint
-```
+### 技术栈
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
++ element-ui
++ vue
++ axios
++ vue-router
++ ES6
++ webpack
++ vue-cli3
++ echarts
++ less
++ ......
